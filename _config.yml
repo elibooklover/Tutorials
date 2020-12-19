@@ -1,8 +1,8 @@
 title: Tutorials
 email: elibooklover@gmail.com
 description: Coding Tutorials for Digital Humanists
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/Tutorials" # the subpath of your site, e.g. /blog
+url: "https://elibooklover.github.io/Tutorials" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: elibooklover
 github_username:  elibooklover
 
