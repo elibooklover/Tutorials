@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Tutorials
+title: Coding Tutorials
 email: elibooklover@gmail.com
 description: "Coding Tutorials for Computational Literary Studies"
 baseurl: "/Tutorials"
