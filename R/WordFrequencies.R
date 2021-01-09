@@ -1,5 +1,5 @@
 #Script Name: WordFrequencies.R
-#Location: ~~~
+#Location:
 #Created by Hoyeol Kim
 #Creation Date: 12/20/2020
 #Purpose: Word Frequencies with R
