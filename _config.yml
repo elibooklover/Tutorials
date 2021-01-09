@@ -26,13 +26,13 @@ url: "https://elibooklover.github.io"
 twitter_username: elibooklover
 github_username:  elibooklover
 
+google_analytics: G-D4BSHHZ4SS
+
 # Build settings
 #theme: just-the-docs
 remote_theme: pmarsceill/just-the-docs
 plugins:
   - jekyll-feed
-
-google_analytics: G-D4BSHHZ4SS
 
 # Exclude from processing.
 # The following items will not be processed, by default.
