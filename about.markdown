@@ -1,5 +1,4 @@
 ---
-layout: page
 title: About
-permalink: https://elibooklover.github.io/
+link: https://elibooklover.github.io/
 ---
