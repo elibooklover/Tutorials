@@ -1,4 +1,4 @@
 ---
 title: About
-link: https://elibooklover.github.io/
+redirect_to: https://elibooklover.github.io/
 ---

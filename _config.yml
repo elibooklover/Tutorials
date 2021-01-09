@@ -33,6 +33,7 @@ google_analytics: G-D4BSHHZ4SS
 remote_theme: pmarsceill/just-the-docs
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
 
 # Exclude from processing.
 # The following items will not be processed, by default.
