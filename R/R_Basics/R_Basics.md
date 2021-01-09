@@ -40,16 +40,21 @@ y = 3
 
 
 ```R
-x; y
+print(x)
+print(y)
 ```
 
+    [1] 10
+    [1] 3
+    
 
-10
 
+```R
+print(c(x,y))
+```
 
-
-3
-
+    [1] 10  3
+    
 
 
 ```R
@@ -58,12 +63,11 @@ z <- x * 3
 
 
 ```R
-z
+print(z)
 ```
 
-
-30
-
+    [1] 30
+    
 
 
 ```R
@@ -74,20 +78,15 @@ z <- TRUE
 
 
 ```R
-x; y; z
+print(x)
+print(y)
+print(z)
 ```
 
-
-1.2
-
-
-
-'hello'
-
-
-
-TRUE
-
+    [1] 1.2
+    [1] "hello"
+    [1] TRUE
+    
 
 ### 2.2 Vector
 
@@ -103,48 +102,17 @@ q <- 1.2:7.9
 
 
 ```R
-x; y; z; q
+print(x)
+print(y)
+print(z)
+print(q)
 ```
 
-
-<style>
-.list-inline {list-style: none; margin:0; padding: 0}
-.list-inline>li {display: inline-block}
-.list-inline>li:not(:last-child)::after {content: "\00b7"; padding: 0 .5ex}
-</style>
-<ol class=list-inline><li>1.1</li><li>2.2</li><li>-5</li><li>4.2</li><li>2</li></ol>
-
-
-
-
-<style>
-.list-inline {list-style: none; margin:0; padding: 0}
-.list-inline>li {display: inline-block}
-.list-inline>li:not(:last-child)::after {content: "\00b7"; padding: 0 .5ex}
-</style>
-<ol class=list-inline><li>TRUE</li><li>FALSE</li><li>TRUE</li></ol>
-
-
-
-
-<style>
-.list-inline {list-style: none; margin:0; padding: 0}
-.list-inline>li {display: inline-block}
-.list-inline>li:not(:last-child)::after {content: "\00b7"; padding: 0 .5ex}
-</style>
-<ol class=list-inline><li>'Howdy'</li><li>'Aggies'</li><li>'Whoop'</li></ol>
-
-
-
-
-<style>
-.list-inline {list-style: none; margin:0; padding: 0}
-.list-inline>li {display: inline-block}
-.list-inline>li:not(:last-child)::after {content: "\00b7"; padding: 0 .5ex}
-</style>
-<ol class=list-inline><li>1.2</li><li>2.2</li><li>3.2</li><li>4.2</li><li>5.2</li><li>6.2</li><li>7.2</li></ol>
-
-
+    [1]  1.1  2.2 -5.0  4.2  2.0
+    [1]  TRUE FALSE  TRUE
+    [1] "Howdy"  "Aggies" "Whoop" 
+    [1] 1.2 2.2 3.2 4.2 5.2 6.2 7.2
+    
 
 ### 2.3 Matrix
 
@@ -170,41 +138,23 @@ print(x)
 
 
 ```R
-x[3,] # 3rd row of matrix
-x[,2] # 2nd column of matrix
-x[2:3,1:3] # rows 2,3 of columns 1,2,3
+print(x[3,]) # 3rd row of matrix
+print(x[,2]) # 2nd column of matrix
 ```
 
-
-<style>
-.list-inline {list-style: none; margin:0; padding: 0}
-.list-inline>li {display: inline-block}
-.list-inline>li:not(:last-child)::after {content: "\00b7"; padding: 0 .5ex}
-</style>
-<ol class=list-inline><li>3</li><li>8</li><li>13</li><li>18</li></ol>
+    [1]  3  8 13 18
+    [1]  6  7  8  9 10
+    
 
 
+```R
+print(x[2:3,1:3]) # rows 2,3 of columns 1,2,3
+```
 
-
-<style>
-.list-inline {list-style: none; margin:0; padding: 0}
-.list-inline>li {display: inline-block}
-.list-inline>li:not(:last-child)::after {content: "\00b7"; padding: 0 .5ex}
-</style>
-<ol class=list-inline><li>6</li><li>7</li><li>8</li><li>9</li><li>10</li></ol>
-
-
-
-
-<table>
-<caption>A matrix: 2 × 3 of type int</caption>
-<tbody>
-	<tr><td>2</td><td>7</td><td>12</td></tr>
-	<tr><td>3</td><td>8</td><td>13</td></tr>
-</tbody>
-</table>
-
-
+         [,1] [,2] [,3]
+    [1,]    2    7   12
+    [2,]    3    8   13
+    
 
 
 ```R
