@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: 
+permalink: /
 ---
 
 This website is a tutorial for computational literary studies written by [Hoyeol Kim](https://elibooklover.github.io/). 
