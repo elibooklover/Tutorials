@@ -242,3 +242,5 @@ print(df)
     2   2    George Eliot 1819-11-22 1880-12-22        0
     3   3  Wilkie Collins 1824-01-08 1889-09-23        3
     
+
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
