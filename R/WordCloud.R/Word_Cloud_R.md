@@ -1,10 +1,10 @@
 ---
 layout: page
-title: 'R: Word Cloud with Word Frequencies'
+title: 'R: Word Clouds with Word Frequencies'
 permalink: /R/WordClouds/
 ---
 
-# Create a Word Cloud with Word Frequencies
+# Create Word Clouds with Word Frequencies
 
 
 ```R
