@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 'Python: pandas and NymPy'
+title: 'Python: pandas and NumPy'
 permalink: /Python/pandas/
 ---
 
