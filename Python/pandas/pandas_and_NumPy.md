@@ -173,6 +173,9 @@ print(np.std(n2))
 
 `pandas` has two data structures: `Series` for 1D data and `DataFrame` for 2D data.
 
+```python
+import pandas as pd
+```
 
 ```python
 # Series
