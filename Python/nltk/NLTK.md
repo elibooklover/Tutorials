@@ -19,7 +19,7 @@ drive.mount('/content/drive/')
 
 
 ```python
-omf = open('drive/My Drive/Colab Notebooks/Tutorials/TopicModeling/Dataset/OMF.txt').read()
+omf = open('drive/My Drive/Colab Notebooks/[your path]/OMF.txt').read()
 ```
 
 
