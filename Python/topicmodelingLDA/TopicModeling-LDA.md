@@ -14,42 +14,12 @@ We are going to use the `Gensim`, `spaCy`, `NumPy`, `pandas`, `re`, `Matplotlib`
 
 
 ```python
-pip install --upgrade pyldavis gensim
+pip install --upgrade gensim
 ```
 
-    Collecting pyldavis
-    [?25l  Downloading https://files.pythonhosted.org/packages/24/38/6d81eff34c84c9158d3b7c846bff978ac88b0c2665548941946d3d591158/pyLDAvis-3.2.2.tar.gz (1.7MB)
-    [K     |████████████████████████████████| 1.7MB 7.6MB/s 
-    [?25hCollecting gensim
-    [?25l  Downloading https://files.pythonhosted.org/packages/5c/4e/afe2315e08a38967f8a3036bbe7e38b428e9b7a90e823a83d0d49df1adf5/gensim-3.8.3-cp37-cp37m-manylinux1_x86_64.whl (24.2MB)
-    [K     |████████████████████████████████| 24.2MB 47.4MB/s 
-    [?25hRequirement already satisfied, skipping upgrade: wheel>=0.23.0 in /usr/local/lib/python3.7/dist-packages (from pyldavis) (0.36.2)
-    Requirement already satisfied, skipping upgrade: numpy>=1.9.2 in /usr/local/lib/python3.7/dist-packages (from pyldavis) (1.19.5)
-    Requirement already satisfied, skipping upgrade: scipy>=0.18.0 in /usr/local/lib/python3.7/dist-packages (from pyldavis) (1.4.1)
-    Requirement already satisfied, skipping upgrade: joblib>=0.8.4 in /usr/local/lib/python3.7/dist-packages (from pyldavis) (1.0.1)
-    Requirement already satisfied, skipping upgrade: jinja2>=2.7.2 in /usr/local/lib/python3.7/dist-packages (from pyldavis) (2.11.3)
-    Requirement already satisfied, skipping upgrade: numexpr in /usr/local/lib/python3.7/dist-packages (from pyldavis) (2.7.3)
-    Requirement already satisfied, skipping upgrade: future in /usr/local/lib/python3.7/dist-packages (from pyldavis) (0.16.0)
-    Collecting funcy
-      Downloading https://files.pythonhosted.org/packages/66/89/479de0afbbfb98d1c4b887936808764627300208bb771fcd823403645a36/funcy-1.15-py2.py3-none-any.whl
-    Requirement already satisfied, skipping upgrade: pandas>=0.17.0 in /usr/local/lib/python3.7/dist-packages (from pyldavis) (1.1.5)
-    Requirement already satisfied, skipping upgrade: six>=1.5.0 in /usr/local/lib/python3.7/dist-packages (from gensim) (1.15.0)
-    Requirement already satisfied, skipping upgrade: smart-open>=1.8.1 in /usr/local/lib/python3.7/dist-packages (from gensim) (4.2.0)
-    Requirement already satisfied, skipping upgrade: MarkupSafe>=0.23 in /usr/local/lib/python3.7/dist-packages (from jinja2>=2.7.2->pyldavis) (1.1.1)
-    Requirement already satisfied, skipping upgrade: python-dateutil>=2.7.3 in /usr/local/lib/python3.7/dist-packages (from pandas>=0.17.0->pyldavis) (2.8.1)
-    Requirement already satisfied, skipping upgrade: pytz>=2017.2 in /usr/local/lib/python3.7/dist-packages (from pandas>=0.17.0->pyldavis) (2018.9)
-    Building wheels for collected packages: pyldavis
-      Building wheel for pyldavis (setup.py) ... [?25l[?25hdone
-      Created wheel for pyldavis: filename=pyLDAvis-3.2.2-py2.py3-none-any.whl size=135593 sha256=39175b0f15f90be2550bdbee9a4dae1fa40963cfb7f69eb488e9c7a8b5657e2b
-      Stored in directory: /root/.cache/pip/wheels/74/df/b6/97234c8446a43be05c9a8687ee0db1f1b5ade5f27729187eae
-    Successfully built pyldavis
-    Installing collected packages: funcy, pyldavis, gensim
-      Found existing installation: gensim 3.6.0
-        Uninstalling gensim-3.6.0:
-          Successfully uninstalled gensim-3.6.0
-    Successfully installed funcy-1.15 gensim-3.8.3 pyldavis-3.2.2
-
-
+```python
+pip install pyldavis==3.2.1
+```
 
 ```python
 import re
