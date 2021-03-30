@@ -394,7 +394,7 @@ if(typeof(LDAvis) !== "undefined"){
 
 ```python
 # Export the visualization as a html file.
-pyLDAvis.save_html(visualization, 'drive/My Drive/Colab Notebooks/Tutorials/TopicModeling/LDAModel.html')
+pyLDAvis.save_html(visualization, 'drive/My Drive/Colab Notebooks/LDAModel.html')
 ```
 
 References: \
